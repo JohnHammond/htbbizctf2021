@@ -1,0 +1,87 @@
+# Nmap 7.80 scan initiated Fri Jul 23 17:50:12 2021 as: nmap -sC -sV -oN nmap/initial 10.129.172.64
+Nmap scan report for 10.129.172.64
+Host is up (0.025s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE          VERSION
+22/tcp   open  ssh              OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  ssl/http?
+| http-methods: 
+|_  Supported Methods: POST
+3306/tcp open  mysql?
+6123/tcp open  spark            Apache Spark
+8081/tcp open  blackice-icecap?
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     Content-Type: application/json; charset=UTF-8
+|     content-length: 74
+|     {"errors":["Unable to load requested file /nice ports,/Trinity.txt.bak."]}
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Content-Type: text/html
+|     Date: Fri, 23 Jul 2021 21:50:20 GMT
+|     Expires: Fri, 23 Jul 2021 21:55:20 GMT
+|     Cache-Control: private, max-age=300
+|     Last-Modified: Fri, 23 Jul 2021 21:50:20 GMT
+|     content-length: 2137
+|     <!--
+|     Licensed to the Apache Software Foundation (ASF) under one
+|     more contributor license agreements. See the NOTICE file
+|     distributed with this work for additional information
+|     regarding copyright ownership. The ASF licenses this file
+|     under the Apache License, Version 2.0 (the
+|     "License"); you may not use this file except in compliance
+|     with the License. You may obtain a copy of the License at
+|     http://www.apache.org/licenses/LICENSE-2.0
+|     Unless required by applicable law or agreed to in writing, software
+|     distributed under the License is distributed on an "AS IS" BASIS,
+|     WITHOUT WARRANTIES OR CONDITIONS OF
+|   SIPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Content-Type: application/json; charset=UTF-8
+|     Access-Control-Allow-Origin: *
+|     Connection: keep-alive
+|     content-length: 25
+|     {"errors":["Not found."]}
+|   WWWOFFLEctrlstat: 
+|     HTTP/1.1 404 Not Found
+|     Content-Type: application/json; charset=UTF-8
+|     content-length: 58
+|_    {"errors":["Unable to load requested file /bad-request."]}
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8081-TCP:V=7.80%I=7%D=7/23%Time=60FB399C%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,93B,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20text/html\r\nD
+SF:ate:\x20Fri,\x2023\x20Jul\x202021\x2021:50:20\x20GMT\r\nExpires:\x20Fri
+SF:,\x2023\x20Jul\x202021\x2021:55:20\x20GMT\r\nCache-Control:\x20private,
+SF:\x20max-age=300\r\nLast-Modified:\x20Fri,\x2023\x20Jul\x202021\x2021:50
+SF::20\x20GMT\r\ncontent-length:\x202137\r\n\r\n<!--\n\x20\x20~\x20License
+SF:d\x20to\x20the\x20Apache\x20Software\x20Foundation\x20\(ASF\)\x20under\
+SF:x20one\n\x20\x20~\x20or\x20more\x20contributor\x20license\x20agreements
+SF:\.\x20\x20See\x20the\x20NOTICE\x20file\n\x20\x20~\x20distributed\x20wit
+SF:h\x20this\x20work\x20for\x20additional\x20information\n\x20\x20~\x20reg
+SF:arding\x20copyright\x20ownership\.\x20\x20The\x20ASF\x20licenses\x20thi
+SF:s\x20file\n\x20\x20~\x20to\x20you\x20under\x20the\x20Apache\x20License,
+SF:\x20Version\x202\.0\x20\(the\n\x20\x20~\x20\"License\"\);\x20you\x20may
+SF:\x20not\x20use\x20this\x20file\x20except\x20in\x20compliance\n\x20\x20~
+SF:\x20with\x20the\x20License\.\x20\x20You\x20may\x20obtain\x20a\x20copy\x
+SF:20of\x20the\x20License\x20at\n\x20\x20~\n\x20\x20~\x20\x20\x20\x20\x20h
+SF:ttp://www\.apache\.org/licenses/LICENSE-2\.0\n\x20\x20~\n\x20\x20~\x20U
+SF:nless\x20required\x20by\x20applicable\x20law\x20or\x20agreed\x20to\x20i
+SF:n\x20writing,\x20software\n\x20\x20~\x20distributed\x20under\x20the\x20
+SF:License\x20is\x20distributed\x20on\x20an\x20\"AS\x20IS\"\x20BASIS,\n\x2
+SF:0\x20~\x20WITHOUT\x20WARRANTIES\x20OR\x20CONDITIONS\x20OF")%r(FourOhFou
+SF:rRequest,A7,"HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Type:\x20appli
+SF:cation/json;\x20charset=UTF-8\r\ncontent-length:\x2074\r\n\r\n{\"errors
+SF:\":\[\"Unable\x20to\x20load\x20requested\x20file\x20/nice\x20ports,/Tri
+SF:nity\.txt\.bak\.\"\]}")%r(SIPOptions,AE,"HTTP/1\.1\x20404\x20Not\x20Fou
+SF:nd\r\nContent-Type:\x20application/json;\x20charset=UTF-8\r\nAccess-Con
+SF:trol-Allow-Origin:\x20\*\r\nConnection:\x20keep-alive\r\ncontent-length
+SF::\x2025\r\n\r\n{\"errors\":\[\"Not\x20found\.\"\]}")%r(WWWOFFLEctrlstat
+SF:,97,"HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Type:\x20application/j
+SF:son;\x20charset=UTF-8\r\ncontent-length:\x2058\r\n\r\n{\"errors\":\[\"U
+SF:nable\x20to\x20load\x20requested\x20file\x20/bad-request\.\"\]}");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 23 17:55:03 2021 -- 1 IP address (1 host up) scanned in 290.91 seconds

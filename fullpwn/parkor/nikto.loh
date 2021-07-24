@@ -1,0 +1,18 @@
+- Nikto v2.1.5
+---------------------------------------------------------------------------
++ Target IP:          10.129.172.72
++ Target Hostname:    10.129.172.72
++ Target Port:        80
++ Start Time:         2021-07-23 18:17:54 (GMT-4)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/7.4.20
++ The anti-clickjacking X-Frame-Options header is not present.
++ Server leaks inodes via ETags, header found with file /favicon.ico, fields: 0x78ae 0x51affc7a4c400 
++ Allowed HTTP Methods: GET, POST, OPTIONS, HEAD, TRACE 
++ OSVDB-877: HTTP TRACE method is active, suggesting the host is vulnerable to XST
++ OSVDB-3268: /icons/: Directory indexing found.
++ OSVDB-3233: /icons/README: Apache default file found.
++ 6544 items checked: 0 error(s) and 6 item(s) reported on remote host
++ End Time:           2021-07-23 18:21:31 (GMT-4) (217 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
