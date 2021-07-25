@@ -7,7 +7,7 @@
 
 In this CTF I participated with **TeamTradecraft**.
 
-By the end of the competition, we finished in position #25 with 7900 points and 24/44 solved challenges.
+By the end of the competition, we finished in position #26 with 7900 points and 24/44 solved challenges.
 
 *(But we finished as the #1 team for the USA, so I can at least pride myself on that :)* 
 
