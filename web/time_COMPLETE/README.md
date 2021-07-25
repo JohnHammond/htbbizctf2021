@@ -4,7 +4,7 @@
 
 ------
 
-![](img/Pasted image 20210725134152.png)
+![](img/20210725134152.png)
 
 Starting this deployable instance, we are greeted with a page that simply... tells the time.
 
