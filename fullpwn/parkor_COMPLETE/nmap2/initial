@@ -1,0 +1,17 @@
+# Nmap 7.91 scan initiated Sat Jul 24 23:46:07 2021 as: nmap -v -sC -sV -oN nmap2/initial 10.129.173.59
+Nmap scan report for 10.129.173.59
+Host is up (0.030s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.48 (OpenSSL/1.1.1k PHP/7.4.20)
+|_http-favicon: Unknown favicon MD5: 6EB4A43CB64C97F76562AF703893C8FD
+| http-methods: 
+|   Supported Methods: GET POST OPTIONS HEAD TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/7.4.20
+|_http-title: 403 Forbidden
+Service Info: Host: localhost
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jul 24 23:46:18 2021 -- 1 IP address (1 host up) scanned in 11.80 seconds

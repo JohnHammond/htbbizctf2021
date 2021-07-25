@@ -1,0 +1,9 @@
+# Nmap 7.91 scan initiated Sat Jul 24 23:46:27 2021 as: nmap -v -p- -oN nmap2/all_ports 10.129.173.59
+Nmap scan report for 10.129.173.59
+Host is up (0.020s latency).
+Not shown: 65534 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Jul 24 23:48:12 2021 -- 1 IP address (1 host up) scanned in 104.50 seconds

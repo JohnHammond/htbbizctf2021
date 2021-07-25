@@ -1,0 +1,6 @@
+# Nmap 7.91 scan initiated Fri Jul 23 23:33:05 2021 as: nmap -sU -p- -oN nmap/udp_ports 10.129.172.72
+Nmap scan report for 10.129.172.72
+Host is up (0.019s latency).
+All 65535 scanned ports on 10.129.172.72 are open|filtered
+
+# Nmap done at Fri Jul 23 23:56:11 2021 -- 1 IP address (1 host up) scanned in 1385.91 seconds

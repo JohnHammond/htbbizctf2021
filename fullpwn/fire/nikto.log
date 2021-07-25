@@ -1,0 +1,20 @@
+- Nikto v2.1.5
+---------------------------------------------------------------------------
++ Target IP:          10.129.166.38
++ Target Hostname:    10.129.166.38
++ Target Port:        80
++ Start Time:         2021-07-24 03:40:14 (GMT-4)
+---------------------------------------------------------------------------
++ Server: Microsoft-IIS/10.0
++ Retrieved x-powered-by header: ASP.NET
++ Server leaks inodes via ETags, header found with file /, fields: 0x8f61437a8771d71:0 
++ The anti-clickjacking X-Frame-Options header is not present.
++ Retrieved x-aspnet-version header: 4.0.30319
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Server banner has changed from 'Microsoft-IIS/10.0' to 'Microsoft-HTTPAPI/2.0' which may suggest a WAF, load balancer or proxy is in place
++ Allowed HTTP Methods: OPTIONS, TRACE, GET, HEAD, POST 
++ Public HTTP Methods: OPTIONS, TRACE, GET, HEAD, POST 
++ 6544 items checked: 0 error(s) and 6 item(s) reported on remote host
++ End Time:           2021-07-24 03:43:22 (GMT-4) (188 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

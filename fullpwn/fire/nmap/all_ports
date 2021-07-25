@@ -1,0 +1,21 @@
+# Nmap 7.91 scan initiated Sat Jul 24 03:40:07 2021 as: nmap -p- -oN nmap/all_ports 10.129.166.38
+Nmap scan report for 10.129.166.38
+Host is up (0.029s latency).
+Not shown: 65521 closed ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+5985/tcp  open  wsman
+8080/tcp  open  http-proxy
+47001/tcp open  winrm
+49664/tcp open  unknown
+49665/tcp open  unknown
+49666/tcp open  unknown
+49667/tcp open  unknown
+49668/tcp open  unknown
+49669/tcp open  unknown
+49670/tcp open  unknown
+
+# Nmap done at Sat Jul 24 03:40:38 2021 -- 1 IP address (1 host up) scanned in 31.31 seconds

@@ -1,2 +1,8 @@
 *.mem
 *.ova
+env/*
+.env/*
+**/env/*
+*/env/*
+**/*_extracted/*
+*/*_extracted/*

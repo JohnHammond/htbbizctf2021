@@ -1,0 +1,48 @@
+
+=====================================================
+Gobuster v2.0.1              OJ Reeves (@TheColonial)
+=====================================================
+[+] Mode         : dir
+[+] Url/Domain   : http://10.129.166.38:8080/
+[+] Threads      : 10
+[+] Wordlist     : /opt/directory-list-2.3-medium.txt
+[+] Status codes : 200,204,301,302,307,403
+[+] Extensions   : php
+[+] Timeout      : 10s
+=====================================================
+=====================================================
+/images (Status: 301)
+/info.php (Status: 200)
+/submit.php (Status: 200)
+/Images (Status: 301)
+/assets (Status: 301)
+/Info.php (Status: 200)
+/IMAGES (Status: 301)
+/%!(NOVERB) (Status: 403)
+/Assets (Status: 301)
+/*checkout* (Status: 403)
+/*checkout*.php (Status: 403)
+/*docroot* (Status: 403)
+/*docroot*.php (Status: 403)
+/* (Status: 403)
+/*.php (Status: 403)
+/con (Status: 403)
+/con.php (Status: 403)
+/http%!A(MISSING) (Status: 403)
+/http%!A(MISSING).php (Status: 403)
+/**http%!a(MISSING) (Status: 403)
+/**http%!a(MISSING).php (Status: 403)
+/*http%!A(MISSING) (Status: 403)
+/*http%!A(MISSING).php (Status: 403)
+/INFO.php (Status: 200)
+/Submit.php (Status: 200)
+/aux (Status: 403)
+/aux.php (Status: 403)
+/**http%!A(MISSING) (Status: 403)
+/**http%!A(MISSING).php (Status: 403)
+/%!C(MISSING)0 (Status: 403)
+/%!C(MISSING)0.php (Status: 403)
+/%!F(MISSING)RID%!D(MISSING)2671 (Status: 403)
+/%!F(MISSING)RID%!D(MISSING)2671.php (Status: 403)
+/devinmoore* (Status: 403)
+/devinmoore*.php (Status: 403)

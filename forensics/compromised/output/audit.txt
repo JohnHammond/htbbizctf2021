@@ -1,0 +1,30 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Fri Jul 23 15:19:13 2021
+Invocation: foremost dump.mem 
+Output directory: /home/john/htbbizctf/forensics/compromised/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: dump.mem
+Start: Fri Jul 23 15:19:13 2021
+Length: 1023 MB (1073278016 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	01283713.gif 	       8 KB 	  657261308 	  (0 x 18759)
+1:	01269982.bmp 	      64 KB 	  650231228 	  (932970496 x 212)
+2:	01494643.gif 	       2 KB 	  765257336 	  (0 x 18759)
+3:	01794121.gif 	       2 KB 	  918590136 	  (0 x 18759)
+4:	01720446.zip 	     350 KB 	  880868416 	 
+5:	02019207.gif 	       2 KB 	 1033834232 	  (0 x 18759)
+Finish: Fri Jul 23 15:19:48 2021
+
+6 FILES EXTRACTED
+	
+gif:= 4
+bmp:= 1
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Fri Jul 23 15:19:48 2021

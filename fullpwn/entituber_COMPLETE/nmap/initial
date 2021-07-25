@@ -1,0 +1,15 @@
+# Nmap 7.91 scan initiated Sat Jul 24 00:26:07 2021 as: nmap -sC -sV -oN nmap/initial 10.129.1.3
+Nmap scan report for 10.129.1.3
+Host is up (0.020s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.48 ((Win64) PHP/7.4.20)
+|_http-favicon: Unknown favicon MD5: FED84E16B6CCFE88EE7FFAAE5DFEFD34
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.48 (Win64) PHP/7.4.20
+|_http-title: eCorp - Index
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jul 24 00:26:19 2021 -- 1 IP address (1 host up) scanned in 11.97 seconds

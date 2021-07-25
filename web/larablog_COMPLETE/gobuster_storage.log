@@ -1,0 +1,13 @@
+
+=====================================================
+Gobuster v2.0.1              OJ Reeves (@TheColonial)
+=====================================================
+[+] Mode         : dir
+[+] Url/Domain   : http://142.93.38.140:30899/assets../storage/
+[+] Threads      : 10
+[+] Wordlist     : /opt/directory-list-2.3-medium.txt
+[+] Status codes : 200,204,301,302,307,403
+[+] Extensions   : html,log,conf,cfg,bak,php,txt
+[+] Timeout      : 10s
+=====================================================
+=====================================================

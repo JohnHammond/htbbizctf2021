@@ -1,0 +1,57 @@
+
+=====================================================
+Gobuster v2.0.1              OJ Reeves (@TheColonial)
+=====================================================
+[+] Mode         : dir
+[+] Url/Domain   : http://10.129.173.59/
+[+] Threads      : 10
+[+] Wordlist     : /opt/raft-small-words.txt
+[+] Status codes : 200,204,301,302,307,403
+[+] Timeout      : 10s
+=====================================================
+=====================================================
+/.html (Status: 403)
+/.htm (Status: 403)
+/img (Status: 301)
+/webalizer (Status: 403)
+/. (Status: 403)
+/phpmyadmin (Status: 403)
+/.htaccess (Status: 403)
+/.htc (Status: 403)
+/IMG (Status: 301)
+/Img (Status: 301)
+/.html_var_DE (Status: 403)
+/licenses (Status: 403)
+/server-status (Status: 403)
+/.htpasswd (Status: 403)
+/con (Status: 403)
+/.html. (Status: 403)
+/xampp (Status: 301)
+/.html.html (Status: 403)
+/.htpasswds (Status: 403)
+/.htm. (Status: 403)
+/.htmll (Status: 403)
+/.html.old (Status: 403)
+/.ht (Status: 403)
+/.html.bak (Status: 403)
+/.htm.htm (Status: 403)
+/aux (Status: 403)
+/.hta (Status: 403)
+/.html1 (Status: 403)
+/.htgroup (Status: 403)
+/.html.printable (Status: 403)
+/.html.LCK (Status: 403)
+/cockpit (Status: 301)
+/prn (Status: 403)
+/.htm.LCK (Status: 403)
+/.html.php (Status: 403)
+/.htx (Status: 403)
+/.htmls (Status: 403)
+/.htaccess.bak (Status: 403)
+/server-info (Status: 403)
+/.htm2 (Status: 403)
+/.htlm (Status: 403)
+/.html- (Status: 403)
+/.htuser (Status: 403)
+=====================================================
+=====================================================
