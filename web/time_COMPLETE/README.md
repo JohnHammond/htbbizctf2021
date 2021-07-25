@@ -4,8 +4,7 @@
 
 ------
 
-![](img/Pasted image 20210725132418.png)
-web/time_COMPLETE/README.md
+![](img/Pasted image 20210725134152.png)
 
 Starting this deployable instance, we are greeted with a page that simply... tells the time.
 
