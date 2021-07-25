@@ -28,7 +28,7 @@ By the end of the competition, we finished in position #25 with 7900 points and 
 
 ### Web
 
-* Time
+* [Time](time_COMPLETE/)
 * NoteQL
 * Emergency
 * Larablog
