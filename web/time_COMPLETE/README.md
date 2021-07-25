@@ -2,9 +2,9 @@
 
 > Get the current date and time, anytime, anywhere!
 
---------------
+------
 
-![](img/Pasted 0image 20210725132418.png)
+![](img/Pasted image 20210725132418.png)
 
 Starting this deployable instance, we are greeted with a page that simply... tells the time.
 
